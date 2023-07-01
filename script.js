@@ -7,8 +7,6 @@ form.onsubmit = (e) => {
 
   if (figure.innerHTML) {
     alert('Please reset your avatar');
-    e.target[0].value = '';
-    e.target[1].value = '';
     return;
   }
 
