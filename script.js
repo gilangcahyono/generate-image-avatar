@@ -3,8 +3,6 @@ const figure = document.querySelector('figure');
 
 form.onsubmit = (e) => {
   e.preventDefault();
-  console.log(e);
-
   if (figure.innerHTML) {
     alert('Please reset your avatar');
     return;
